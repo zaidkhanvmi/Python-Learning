@@ -77,6 +77,18 @@ function MakChai(order: Chai) {
             break;
 
         default:
-            return "Your order has been confirmed"
+            return "Your order has been confirmed";
     }
 }
+
+function brew(order: MasalaChai | GingerChai) {
+    {
+        if ("spiceLevel" in order) {
+            // to direcly check in the object
+        }
+    }
+}
+
+// function isStringArray(arr: unknown): arr is string[] {
+
+// }
