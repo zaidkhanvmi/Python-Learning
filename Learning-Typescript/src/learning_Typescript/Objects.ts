@@ -103,6 +103,5 @@ type PickInts = {
 
 type choice = Pick<PickInts, "name">;
 type OmmitType = Omit<PickInts, "">;
-type 
 
 const testingPick: choice = { name: "i only can pick name" }
