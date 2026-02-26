@@ -8,4 +8,5 @@ export interface Chai {
 
 let drink = "water"; // now this is by default given type String
 let users = Math.random() > 0.5 ? 5 : 10; // now it's data type is number for default 
-let testingNum = Math.random() > 0.5 ? 5 : "20"; // string | number
+let testingNum = Math.random() > 0.5 ? 5 : "20"; 
+// string | number
